@@ -9,7 +9,7 @@ public class DataServiceTest
    public void ValidExpression()  
    {
         DataService ds = new DataService();
-        int res = ds.Calculate(1, 10);
+        int res = ds.CalculateMinutesSinceStart(1, 10);
         Assert.AreEqual(res, 70);
     } 
 } 

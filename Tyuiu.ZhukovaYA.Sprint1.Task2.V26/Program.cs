@@ -31,7 +31,7 @@ class Program
         Console.WriteLine("***************************************************************************");
 
         DataService ds = new DataService();
-        int res = ds.Calculate(x, y);
+        int res = ds.CalculateMinutesSinceStart(x, y);
         Console.WriteLine($"{res} минут прошло с начала суток");
         Console.ReadKey();
     } 
