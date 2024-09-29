@@ -4,8 +4,8 @@ namespace Tyuiu.ZhukovaYA.Sprint1.Task2.V26.Lib;
 
 public class DataService : ISprint1Task2V26
 {
-    public int Calculate(double value, int valueTwo)
+    public int CalculateMinutesSinceStart(int value, int valueTwo)
     {
-        return ((int)value * 60) + valueTwo;
+        return (value * 60) + valueTwo;
     }
 } 
